@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       branch_name:
-        default: develop
+        default: main
         required: true
         description: Branch to build from
   push:
